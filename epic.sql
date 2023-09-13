@@ -76,3 +76,15 @@ Insert into issues (issues_issue) values
 ('water_security'), 
 ('transportation'), 
 ('disaster_relief') 
+
+-- INSERT INTO DONATIONS TABLE
+Insert into donations (donation_mag_id, donation_amount, donation_date) 
+values ( 
+(1, 10.00, ‘10-23-23'), 
+(2, 25.00, ‘9-4-23'), 
+(3, 50.00, ‘6-1-20'), 
+(4, 100.00, ‘3-14-20'), 
+(5, 150.00, ‘2-14-21') 
+) 
+ 
+
